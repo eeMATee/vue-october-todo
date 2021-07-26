@@ -1,0 +1,10 @@
+name: Todo
+form: $/mat/todo/models/todo/fields.yaml
+modelClass: Mat\Todo\Models\Todo
+defaultRedirect: mat/todo/todo
+create:
+    redirect: 'mat/todo/todo/update/:id'
+    redirectClose: mat/todo/todo
+update:
+    redirect: mat/todo/todo
+    redirectClose: mat/todo/todo

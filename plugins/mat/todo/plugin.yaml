@@ -1,0 +1,11 @@
+plugin:
+    name: 'mat.todo::lang.plugin.name'
+    description: 'mat.todo::lang.plugin.description'
+    author: Mat
+    icon: oc-icon-diamond
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Todos
+        url: mat/todo/todo
+        icon: icon-align-left
